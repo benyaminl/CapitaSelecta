@@ -11,7 +11,19 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    <h1>Hello, world! HAI KO BENNNNNN</h1>
+    <h1>HEDER BARU</h1>
+    <form method="GET" action="https://duckduckgo.com/lite">
+        <input name="q" required>
+        <input name="nama" placeholder="Halo Dunia" required>
+        <button>Search!</button>
+        <button type="button" id="btnClose">Close Window</button>
+    </form>
+    <script>
+    document.getElementById("btnClose")
+        .addEventListener("click", function() {
+            window.close();
+        });
+    </script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
